@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+	  <title>JavaScript demo</title>
+	  <link rel="stylesheet" href="C:\Users\Vitor Colley\OneDrive\Área de Trabalho\NCI\Web Design\Week 8\VitorHAColley21249507Lab\Styles\styles.css">
+	  <!-- add the link tag to the style.css which will be in a folder -->
+	  <!-- done -->
+	  
+	  <!-- used to embed client side script/JS -->
+	  <script type="text/javascript">
+		
+		//intro
+		alert("Welcome to our new store!!");
+		var name=prompt("Please, enter your name.");
+		alert("Hello "+name+", shall we proceed?");
+		
+		//shopping
+		var question1=prompt("Do you wish to buy any Shirts?")
+			if(question1="yes"){
+			var shirts=parseInt(prompt("How many Shirts do you wish to buy?"));
+			}else if(question1="no"){
+			var shirts=parseInt(shirts=0);
+			}
+		var question2=prompt("Do you wish to buy any Pants?")
+			if(question2="yes"){
+			var pants=parseInt(prompt("How many Pants do you wish to buy?"));
+			}else if(question2="no"){
+			var pants=parseInt(pants=0);
+			}
+		var question3=prompt("Do you wish to buy any Shoes?")
+			if(question3="yes"){
+			var shoes=parseInt(prompt("How many Shoes do you wish to buy?"));
+			}else if(question3="no"){
+			var shoes=parseInt(shoes=0);
+			}
+			
+		//total
+		var totalCost=(shirts*15)+(pants*20)+(shoes*10);
+		document.write("The total amount is "+totalCost+" euros, please pay at the till.")
+		
+	
+	  </script>
+	  	  
+	</head>
+	<body>
+		<h1> Thank you, have a nice day. </h1>
+	</body>
+</html>
